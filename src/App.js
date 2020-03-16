@@ -1,10 +1,12 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom'
+import Dashboard from './containers/Dashboard/Dashboard'
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Enbase</h1>
-    </div>
+    <BrowserRouter>
+      <Dashboard />
+    </BrowserRouter>
   );
 }
 
